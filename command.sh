@@ -1,7 +1,7 @@
 #!/bin/bash
 for counter in $(seq 1 1000000); do  
   for counter in $(seq 1 1000000); do
-    echo facebook.com
+    wget facebook.com
   done
 done
 
